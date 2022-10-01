@@ -279,9 +279,10 @@
     .projects-col{
       flex-direction: column;
     }
-    .projects-col-1 p{
-      margin-right: -10px;
-      margin-left: 0;
+    .projects-col-1{
+        text-align: left; 
+        margin: 0px 50px;
+      }
     }
 
   }
