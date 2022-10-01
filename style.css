@@ -276,6 +276,14 @@
     .row{
       flex-direction: column;
     }
+    .projects-col{
+      flex-direction: column;
+    }
+    .projects-col-1 p{
+      margin-right: -10px;
+      margin-left: 0;
+    }
+
   }
   
   /* Prices */
