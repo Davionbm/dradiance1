@@ -413,7 +413,7 @@
 
   .about-us h2{
     color: black;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .about-us-col{
@@ -494,7 +494,7 @@
   
   @media(max-wdith: 700px) {
     .cta h1 {
-      font-size: 15px;
+      font-size: 10px;
     }
 
     .cta .hero-btn-1{
@@ -760,7 +760,7 @@
   .text-box-blog h1 p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff
+    color: #fff;
   }
 
   .header-blog {
@@ -770,9 +770,15 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    overflow-x: hidden
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .projects-col-1 p{
     color: black;
   }
+
+  .header-blog .fas{
+    visibility: visible;
+  }
+
