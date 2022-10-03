@@ -780,6 +780,8 @@
 
   .projects-col-1 p{
     color: black;
+    line-height: 30px;
+    font-size: 16px;
   }
 
   .header-blog .fas{
