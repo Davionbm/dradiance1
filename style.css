@@ -222,6 +222,17 @@
     .text-box h1{
     font-size: 30px;
     }
+
+    .next-previous{
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .whole{
+      display: flex;
+      flex-direction: column;
+    }
   }
   
   /* Projects */
@@ -786,5 +797,14 @@
 
   .header-blog .fas{
     visibility: visible;
+  }
+
+  .next-previous{
+    margin-left: auto;
+  }
+
+  .whole{
+    display: flex;
+    flex-direction: row;
   }
 
