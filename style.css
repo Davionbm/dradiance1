@@ -106,6 +106,12 @@
       visibility: visible;
     }
   }
+
+  ol li{
+    list-style: decimal;
+    margin-left: 100px;
+    
+  }
   
   @media (max-width: 700px){
     .checkbtn{
